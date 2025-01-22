@@ -2,7 +2,7 @@
 
 ## Overview  
 
-This project serves as the backend for a web application. It is built using **Node.js** and **Express**, with **MongoDB** as the database. The backend supports file uploads via **Multer** and includes essential features like environment variable management and CORS support.  
+This project serves as the backend for a web application. It is built using **Node.js** and **Express**, with **MongoDB** as the database.includes essential features like environment variable management and CORS support.  
 
 ---
 
@@ -25,7 +25,6 @@ This project serves as the backend for a web application. It is built using **No
 
 - **Express server setup** for handling HTTP requests.  
 - **MongoDB integration** using Mongoose for schema and database operations.  
-- **File upload functionality** powered by Multer.  
 - **Cross-Origin Resource Sharing (CORS)** enabled for secure API access.  
 - **Environment variable management** via dotenv.  
 
@@ -88,8 +87,7 @@ The server will be accessible at `http://localhost:5000` by default.
 The project utilizes the following main dependencies:  
 
 - **express**: Web server framework.  
-- **mongoose**: MongoDB ODM for database operations.  
-- **multer**: Middleware for handling file uploads.  
+- **mongoose**: MongoDB ODM for database operations.   
 - **dotenv**: For managing environment variables.  
 - **cors**: Enables Cross-Origin Resource Sharing.  
 
